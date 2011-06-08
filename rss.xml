@@ -1,0 +1,25 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>nonfiction studios inc. blog</title>
+    <link>{{site.baseurl}}</link>
+    <language>en</language>
+    <webMaster>darron@nonfiction.ca (Darron Froese)</webMaster>
+    <pubDate>{{ site.time | date_to_xmlschema }}</pubDate>
+    <copyright>Copyright 2011</copyright>
+    <ttl>60</ttl>
+    <description>a blog by nonfiction studios inc.</description>
+    {% for post in site.posts limit:10 %}
+    <item>
+      <title>{{ post.title }}</title>
+      <link>{{site.baseurl}}{{ post.url }}</link>
+      <pubDate>{{ post.date }}</pubDate>
+      <guid>{{site.baseurl}}{{ post.id }}/</guid>
+      <description>{{ post.content | xml_escape }}</description>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>
