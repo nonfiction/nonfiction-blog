@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+  <title>nonfiction.ca blog</title>
+  <link href="http://nonfiction.ca/blog"/>
+  <link type="application/atom+xml" rel="self" href="http://nonfiction.ca/blog/atom.xml"/>
+  <updated>2011-06-08T01:38:44-06:00</updated>
+  <id>http://nonfiction.ca/blog/</id>
+  <author>
+    <name>nonfiction studios inc.</name>
+    <email>darron@nonfiction.ca</email>
+  </author>
+
+  
+  <entry>
+    <id>http://nonfiction.ca/blog/2011/06/07/first-post.html</id>
+    <link type="text/html" rel="alternate" href="http://nonfiction.ca/blog/2011/06/07/first-post.html"/>
+    <title>First Blog Post.</title>
+    <updated>2011-06-07T00:00:00-06:00</updated>
+    <author>
+      <name>Darron Froese</name>
+      <uri>http://twitter.com/darron</uri>
+    </author>
+    <content type="html">&lt;p&gt;Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome!&lt;/p&gt;
+
+&lt;p&gt;Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome!&lt;/p&gt;
+
+&lt;p&gt;Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome!&lt;/p&gt;</content>
+  </entry>
+  
+ 
+</feed>
