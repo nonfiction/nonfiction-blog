@@ -1,0 +1,8 @@
+---
+layout: default
+title: nonfiction blog archives
+---
+
+{% for post in site.posts %}
+<p><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a> by {{post.author}} and <em>posted on {{ post.date | date_to_long_string }}.</em></p>
+{% endfor %}
