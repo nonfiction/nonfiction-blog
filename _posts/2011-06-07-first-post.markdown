@@ -5,8 +5,6 @@ author: Darron Froese
 author-image: darron.jpg
 author-link: http://twitter.com/darron
 summary: This is the summary - it is only a summary - and it does nothing else.
-tags: [nothing, technology, introduction]
-categories: [dude]
 ---
 
 Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! Welcome! 
