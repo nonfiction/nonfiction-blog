@@ -4,7 +4,6 @@ title: Working to earn your trust.
 author: Darron Froese
 author-image: darron.jpg
 author-link: http://twitter.com/darron
-summary: We're working to earn your trust, so that our work for you will be better than ever.
 ---
 
 Was thinking about how I interact with car mechanics lately - since I'm due for another oil change. *Most* of the time, I decline their offers for additional services reflexively. This isn't because I know that my vehicle doesn't need the service - it's just because I don't trust their motivations and have been burned in the past. Being burned in the oil change business isn't very expensive, I think the last time I got hooked it was $129 for service I didn't really need. I now second guess everything that those people say - often just long enough to say: *No thanks.*
