@@ -23,10 +23,8 @@ I have a large client that we do a ton of work for - from all sorts of departmen
 
 I have some other departments at that client that don't seem to trust our advice at all. We're constantly second guessed until the project is a barely recognizable shell of what we designed and planned for. We're constantly having to re-do and re-work something that will never deliver - because our advice was consistently ignored - for whatever reason.
 
-It all comes down to trust.
-
-We want to earn your trust - so that we can do better work and make you look like a hero.
+It all comes down to trust. We want to earn your trust - so that we can do better work and make you look like a hero.
 
 That's really our only job - to make you look good - so let's work together.
 
-You'll get better work for less cost - how can you go wrong?
+How can we do better to earn your trust?
