@@ -14,15 +14,15 @@ That triggered a more recent understanding for me: That's a lot like web design 
 
 We've been building websites as [nonfiction studios inc.](http://nonfiction.ca) for 8 and a half years now. Many of our clients were with us when we started out of the ashes of another studio. We've kept most of them for this entire time and they've developed a trust in us that we've worked hard to keep.
 
-When we do work with those clients - our long term partners - we are able to do *much* better work for them. We don't have to fight about simple decisions - they trust we have their best in mind. And we trust that they know their business and that we don't - we rely on them for information about their company and clients.
+When we do work with those clients - our long term partners - we are able to do *much* better work for them. We don't have to fight about simple decisions - they trust we have their best interests in mind. And we trust that they know their business and that we don't - we rely on them for information about their company and clients.
 
 nonfiction wants to get *all* of our clients into that position - a position where they will trust us - and allow us to do our best work.
 
-We have a large client that we do a ton of work for - from all sorts of departments. Some of those departments trust us - and we do our best work for them. They have a problem, we discuss the problem and then come up with solutions - they give input from their perspective as business experts - and we give input from a design and development perspective. And in the end, we have a great product - delivered on time and on budget with minimal drama and maximum impact.
+We have a large client that we do a ton of work for - from all sorts of departments. Some of those departments trust us - and we do our best work for them. They have a problem, we discuss the problem and then come up with solutions - they give input from their perspective as business experts - and we give input from a design and development perspective. In the end, we have a great product - delivered on time and on budget with minimal drama and maximum impact.
 
-We have some other departments at that client that don't seem to trust our advice at all. We're constantly second guessed until the project is a barely recognizable shell of what we designed and planned for. We're constantly having to re-do and re-work something that will never deliver - because our advice was consistently ignored - for whatever reason.
+We have some other departments at that client that we don't have the same trust dynamic with. We're constantly being second guessed until the project is a barely recognizable shell of what we designed and planned for. We're constantly having to re-do and re-work something that will never actually deliver because we didn't work together as a team.
 
-It all comes down to trust. We want to earn your trust - so that we can do better work and make you look like a hero.
+It all comes down to trust. We work hard to earn and develop our client's trust- so that we can do better and make you look like a hero.
 
 We think one way to improve that trust with clients, is to remove some of the mysteries around design and development. One of the purposes for this blog is to share some of the inner workings of our Studio's process. We hope this can build even more trust with our fantastic clients. Trust is the foundation for great work.
 
