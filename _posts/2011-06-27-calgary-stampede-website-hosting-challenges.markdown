@@ -10,7 +10,7 @@ For the last 9 years, nonfiction has hosted almost [all](http://calgarystampede.
 
 One thing that's different about their website usage is this - their premier event is a 10 day rodeo that happens every July - and their website traffic mirrors this.
 
-(/images/2011/06/27/visits.gif "Visits to the site over the year.")
+![Visits to the site over the year](/images/2011/06/27/visits.gif "Visits to the site over the year.")
 
 This has given us a great opportunity to experiment with how to handle the incredible load changes - from 1,000 visitors per day to 60,000 visitors per day.
 
@@ -44,7 +44,7 @@ It's during step #3 that the CDN can help tremendously - they place copies of yo
 
 We finally settled on [Cachefly](http://www.cachefly.com/) to help us serve the Calgary Stampede's sites. They have servers all around the world - and they serve all of the "dumb" content for the site - quickly and easily.
 
-(/images/2011/06/27/cachefly.gif "View of Cachefly's network.")
+![View of Cachefly's network.](/images/2011/06/27/cachefly.gif "View of Cachefly's network.")
 
 That helped a ton with making the site responsive, but there was still one major issue - we needed to speed up the HTML for the site - #2 in the list above.
 
