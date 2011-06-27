@@ -5,7 +5,7 @@
     <link>http://nonfiction.ca/blog</link>
     <language>en</language>
     <webMaster>darron@nonfiction.ca (Darron Froese)</webMaster>
-    <pubDate>2011-06-27T10:24:56-06:00</pubDate>
+    <pubDate>2011-06-27T10:26:37-06:00</pubDate>
     <copyright>Copyright 2011</copyright>
     <ttl>60</ttl>
     <description>a blog by nonfiction studios inc.</description>
@@ -19,7 +19,7 @@
 
 &lt;p&gt;One thing that&amp;#8217;s different about their website usage is this - their premier event is a 10 day rodeo that happens every July - and their website traffic mirrors this.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt='Visits to the site over the year' src='/images/2011/06/27/visits.gif' /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt='Visits to the site over the year' src='/blog-beta/images/2011/06/27/visits.gif' /&gt;&lt;/p&gt;
 
 &lt;p&gt;This has given us a great opportunity to experiment with how to handle the incredible load changes - from 1,000 visitors per day to 60,000 visitors per day.&lt;/p&gt;
 
@@ -45,7 +45,7 @@
 
 &lt;p&gt;We finally settled on &lt;a href='http://www.cachefly.com/'&gt;Cachefly&lt;/a&gt; to help us serve the Calgary Stampede&amp;#8217;s sites. They have servers all around the world - and they serve all of the &amp;#8220;dumb&amp;#8221; content for the site - quickly and easily.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt='View of Cacheflys network.' src='/images/2011/06/27/cachefly.gif' /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt='View of Cacheflys network.' src='/blog-beta/images/2011/06/27/cachefly.gif' /&gt;&lt;/p&gt;
 
 &lt;p&gt;That helped a ton with making the site responsive, but there was still one major issue - we needed to speed up the HTML for the site - #2 in the list above.&lt;/p&gt;
 
