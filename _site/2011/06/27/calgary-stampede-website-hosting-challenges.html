@@ -62,21 +62,45 @@
 
 <p>For the first few years, the visitors were nowhere near the level they are now - so we were able to handle the traffic using the dedicated servers at <a href='http://www.rackspace.com/'>Rackspace</a>. That worked great for the first few years, but there were a few limitations near the end of this time:</p>
 
-<p>1. There were a few days where changes to the site needed to be avoided. Changes could introduce some major performance issues if they happened at peak times. 2. Big crushes of traffic had the potential to do just that - crush the server. 3. There wasn&#8217;t a lot of room for error and we didn&#8217;t like that.</p>
+<ol>
+<li>There were a few days where changes to the site needed to be avoided. Changes could introduce some major performance issues if they happened at peak times.</li>
+
+<li>Big crushes of traffic had the potential to do just that - crush the server.</li>
+
+<li>There wasn&#8217;t a lot of room for error and we didn&#8217;t like that.</li>
+</ol>
 
 <p>So we started looking at options to:</p>
 
-<p>1. Make sure our other clients weren&#8217;t affected. 2. Keep the sites responsive so the Calgary Stampede visitors weren&#8217;t impacted negatively. 3. Allow us to keep the flexibility we enjoyed with respect to making changes during the event.</p>
+<ol>
+<li>Make sure our other clients weren&#8217;t affected.</li>
+
+<li>Keep the sites responsive so the Calgary Stampede visitors weren&#8217;t impacted negatively.</li>
+
+<li>Allow us to keep the flexibility we enjoyed with respect to making changes during the event.</li>
+</ol>
 
 <p>Some of the first items we had done and continued looking at were:</p>
 
-<p>1. Making sure the content management system was as efficient as possible. That involved tuning the database, the commands used to build pages, etc., etc. 2. Making sure the images on the website are compressed down to the proper sizes. 3. Making sure we were as efficient as possible when programming the site using HTML and CSS.</p>
+<ol>
+<li>Making sure the content management system was as efficient as possible. That involved tuning the database, the commands used to build pages, etc., etc.</li>
+
+<li>Making sure the images on the website are compressed down to the proper sizes.</li>
+
+<li>Making sure we were as efficient as possible when programming the site using HTML and CSS.</li>
+</ol>
 
 <p>But that still wasn&#8217;t enough - so we started looking at <a href='http://en.wikipedia.org/wiki/Content_delivery_network'>&#8220;content distribution networks&#8221;</a> or CDN&#8217;s. You can think of a CDN as a bunch of computers placed all around the world - they are closer to a website&#8217;s visitors so they&#8217;re able to deliver certain parts of the website very quickly.</p>
 
 <p>It works like this when you visit a website:</p>
 
-<p>1. You type in &#8220;www.google.com&#8221; to your web browser. 2. You computer requests that page from the web server - and the web server delivers it. 3. Then all of the images and related linked items are downloaded - 2 at a time.</p>
+<ol>
+<li>You type in &#8220;www.google.com&#8221; to your web browser.</li>
+
+<li>You computer requests that page from the web server - and the web server delivers it.</li>
+
+<li>Then all of the images and related linked items are downloaded - 2 at a time.</li>
+</ol>
 
 <p>It&#8217;s during step #3 that the CDN can help tremendously - they place copies of your website content around the world, and your information doesn&#8217;t have to travel as far.</p>
 
@@ -88,7 +112,13 @@
 
 <p>During certain days of the event, there are so many people requesting pages, that the site is heavily loaded and could be slow. We needed a &#8220;content accelerator&#8221; to help to:</p>
 
-<p>1. Serve web pages very quickly. 2. Refresh those pages as they change. 3. Protect the content management system from one of the most popular sites on the internet - at least for a few days.</p>
+<ol>
+<li>Serve web pages very quickly.</li>
+
+<li>Refresh those pages as they change.</li>
+
+<li>Protect the content management system from one of the most popular sites on the internet - at least for a few days.</li>
+</ol>
 
 <p>After some research and testing, we started using <a href='https://www.varnish-cache.org/'>Varnish</a> and we fell in love with it. Varnish is an amazing piece of technology - it helps with what we call the <a href='http://en.wikipedia.org/wiki/Thundering_herd_problem'>&#8220;thundering herd problem&#8221;</a> and it can make almost any website very fast in a short period of time.</p>
 </div>

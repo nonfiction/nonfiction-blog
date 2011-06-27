@@ -4,7 +4,7 @@
   <title>nonfiction.ca blog</title>
   <link href="http://nonfiction.ca/blog"/>
   <link type="application/atom+xml" rel="self" href="http://nonfiction.ca/blog/atom.xml"/>
-  <updated>2011-06-27T10:26:37-06:00</updated>
+  <updated>2011-06-27T10:31:28-06:00</updated>
   <id>http://nonfiction.ca/blog/</id>
   <author>
     <name>nonfiction studios inc.</name>
@@ -31,21 +31,45 @@
 
 &lt;p&gt;For the first few years, the visitors were nowhere near the level they are now - so we were able to handle the traffic using the dedicated servers at &lt;a href='http://www.rackspace.com/'&gt;Rackspace&lt;/a&gt;. That worked great for the first few years, but there were a few limitations near the end of this time:&lt;/p&gt;
 
-&lt;p&gt;1. There were a few days where changes to the site needed to be avoided. Changes could introduce some major performance issues if they happened at peak times. 2. Big crushes of traffic had the potential to do just that - crush the server. 3. There wasn&amp;#8217;t a lot of room for error and we didn&amp;#8217;t like that.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;There were a few days where changes to the site needed to be avoided. Changes could introduce some major performance issues if they happened at peak times.&lt;/li&gt;
+
+&lt;li&gt;Big crushes of traffic had the potential to do just that - crush the server.&lt;/li&gt;
+
+&lt;li&gt;There wasn&amp;#8217;t a lot of room for error and we didn&amp;#8217;t like that.&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;So we started looking at options to:&lt;/p&gt;
 
-&lt;p&gt;1. Make sure our other clients weren&amp;#8217;t affected. 2. Keep the sites responsive so the Calgary Stampede visitors weren&amp;#8217;t impacted negatively. 3. Allow us to keep the flexibility we enjoyed with respect to making changes during the event.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Make sure our other clients weren&amp;#8217;t affected.&lt;/li&gt;
+
+&lt;li&gt;Keep the sites responsive so the Calgary Stampede visitors weren&amp;#8217;t impacted negatively.&lt;/li&gt;
+
+&lt;li&gt;Allow us to keep the flexibility we enjoyed with respect to making changes during the event.&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;Some of the first items we had done and continued looking at were:&lt;/p&gt;
 
-&lt;p&gt;1. Making sure the content management system was as efficient as possible. That involved tuning the database, the commands used to build pages, etc., etc. 2. Making sure the images on the website are compressed down to the proper sizes. 3. Making sure we were as efficient as possible when programming the site using HTML and CSS.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Making sure the content management system was as efficient as possible. That involved tuning the database, the commands used to build pages, etc., etc.&lt;/li&gt;
+
+&lt;li&gt;Making sure the images on the website are compressed down to the proper sizes.&lt;/li&gt;
+
+&lt;li&gt;Making sure we were as efficient as possible when programming the site using HTML and CSS.&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;But that still wasn&amp;#8217;t enough - so we started looking at &lt;a href='http://en.wikipedia.org/wiki/Content_delivery_network'&gt;&amp;#8220;content distribution networks&amp;#8221;&lt;/a&gt; or CDN&amp;#8217;s. You can think of a CDN as a bunch of computers placed all around the world - they are closer to a website&amp;#8217;s visitors so they&amp;#8217;re able to deliver certain parts of the website very quickly.&lt;/p&gt;
 
 &lt;p&gt;It works like this when you visit a website:&lt;/p&gt;
 
-&lt;p&gt;1. You type in &amp;#8220;www.google.com&amp;#8221; to your web browser. 2. You computer requests that page from the web server - and the web server delivers it. 3. Then all of the images and related linked items are downloaded - 2 at a time.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;You type in &amp;#8220;www.google.com&amp;#8221; to your web browser.&lt;/li&gt;
+
+&lt;li&gt;You computer requests that page from the web server - and the web server delivers it.&lt;/li&gt;
+
+&lt;li&gt;Then all of the images and related linked items are downloaded - 2 at a time.&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;It&amp;#8217;s during step #3 that the CDN can help tremendously - they place copies of your website content around the world, and your information doesn&amp;#8217;t have to travel as far.&lt;/p&gt;
 
@@ -57,7 +81,13 @@
 
 &lt;p&gt;During certain days of the event, there are so many people requesting pages, that the site is heavily loaded and could be slow. We needed a &amp;#8220;content accelerator&amp;#8221; to help to:&lt;/p&gt;
 
-&lt;p&gt;1. Serve web pages very quickly. 2. Refresh those pages as they change. 3. Protect the content management system from one of the most popular sites on the internet - at least for a few days.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Serve web pages very quickly.&lt;/li&gt;
+
+&lt;li&gt;Refresh those pages as they change.&lt;/li&gt;
+
+&lt;li&gt;Protect the content management system from one of the most popular sites on the internet - at least for a few days.&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;After some research and testing, we started using &lt;a href='https://www.varnish-cache.org/'&gt;Varnish&lt;/a&gt; and we fell in love with it. Varnish is an amazing piece of technology - it helps with what we call the &lt;a href='http://en.wikipedia.org/wiki/Thundering_herd_problem'&gt;&amp;#8220;thundering herd problem&amp;#8221;&lt;/a&gt; and it can make almost any website very fast in a short period of time.&lt;/p&gt;</content>
   </entry>
