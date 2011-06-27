@@ -5,7 +5,7 @@
     <link>http://nonfiction.ca/blog</link>
     <language>en</language>
     <webMaster>darron@nonfiction.ca (Darron Froese)</webMaster>
-    <pubDate>2011-06-27T10:31:28-06:00</pubDate>
+    <pubDate>2011-06-27T10:55:16-06:00</pubDate>
     <copyright>Copyright 2011</copyright>
     <ttl>60</ttl>
     <description>a blog by nonfiction studios inc.</description>
@@ -21,9 +21,9 @@
 
 &lt;p&gt;&lt;img alt='Visits to the site over the year' src='/blog-beta/images/2011/06/27/visits.gif' /&gt;&lt;/p&gt;
 
-&lt;p&gt;This has given us a great opportunity to experiment with how to handle the incredible load changes - from 1,000 visitors per day to 60,000 visitors per day.&lt;/p&gt;
+&lt;p&gt;This has given us a great opportunity to experiment with how to handle the incredible load changes - from 1,000 visitors per day to &lt;em&gt;60,000&lt;/em&gt; visitors per day. At the peak, those visitors will look at approximately &lt;em&gt;350,000 pages&lt;/em&gt; each day which translates to more than &lt;em&gt;10 million hits&lt;/em&gt; each day.&lt;/p&gt;
 
-&lt;p&gt;For the first few years, the visitors were nowhere near the level they are now - so we were able to handle the traffic using the dedicated servers at &lt;a href='http://www.rackspace.com/'&gt;Rackspace&lt;/a&gt;. That worked great for the first few years, but there were a few limitations near the end of this time:&lt;/p&gt;
+&lt;p&gt;For the first few years, the visitors were nowhere near the level they are now, so we were able to handle the traffic using the dedicated servers at &lt;a href='http://www.rackspace.com/'&gt;Rackspace&lt;/a&gt;. That worked great for a while, but there were a few limitations near the end of this time:&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;There were a few days where changes to the site needed to be avoided. Changes could introduce some major performance issues if they happened at peak times.&lt;/li&gt;
@@ -83,7 +83,15 @@
 &lt;li&gt;Protect the content management system from one of the most popular sites on the internet - at least for a few days.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;After some research and testing, we started using &lt;a href='https://www.varnish-cache.org/'&gt;Varnish&lt;/a&gt; and we fell in love with it. Varnish is an amazing piece of technology - it helps with what we call the &lt;a href='http://en.wikipedia.org/wiki/Thundering_herd_problem'&gt;&amp;#8220;thundering herd problem&amp;#8221;&lt;/a&gt; and it can make almost any website very fast in a short period of time.&lt;/p&gt;</description>
+&lt;p&gt;After some research and testing, we started using &lt;a href='https://www.varnish-cache.org/'&gt;Varnish&lt;/a&gt; and we fell in love with it. Varnish is an amazing piece of technology - it helps with what&amp;#8217;s called the &lt;a href='http://en.wikipedia.org/wiki/Thundering_herd_problem'&gt;&amp;#8220;thundering herd problem&amp;#8221;&lt;/a&gt; and it can make almost any website very fast in a short period of time.&lt;/p&gt;
+
+&lt;p&gt;We used this combination of Varnish and the Cachefly CDN last year (along with efficent programming techniques) - and it was a resounding success. We are able to handle a lot of website visitors with this combination - with a lot of capacity to grow if needed.&lt;/p&gt;
+
+&lt;p&gt;This year, we have a number of Varnish servers in a ring around the main websites, with the content distribution taking up the front line all around the world - and we anticipate being able to handle even larger traffic volumes without any issues.&lt;/p&gt;
+
+&lt;p&gt;Having websites at this large scale is lots of fun for &lt;a href='http://nonfiction.ca/'&gt;nonfiction&lt;/a&gt; - it presents us with different challenges that most websites never have to face.&lt;/p&gt;
+
+&lt;p&gt;What kind of challenges do your sites face? How can we help?&lt;/p&gt;</description>
     </item>
     
     <item>

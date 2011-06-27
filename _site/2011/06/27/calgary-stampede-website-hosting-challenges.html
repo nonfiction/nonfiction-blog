@@ -58,9 +58,9 @@
 
 <p><img alt='Visits to the site over the year' src='/blog-beta/images/2011/06/27/visits.gif' /></p>
 
-<p>This has given us a great opportunity to experiment with how to handle the incredible load changes - from 1,000 visitors per day to 60,000 visitors per day.</p>
+<p>This has given us a great opportunity to experiment with how to handle the incredible load changes - from 1,000 visitors per day to <em>60,000</em> visitors per day. At the peak, those visitors will look at approximately <em>350,000 pages</em> each day which translates to more than <em>10 million hits</em> each day.</p>
 
-<p>For the first few years, the visitors were nowhere near the level they are now - so we were able to handle the traffic using the dedicated servers at <a href='http://www.rackspace.com/'>Rackspace</a>. That worked great for the first few years, but there were a few limitations near the end of this time:</p>
+<p>For the first few years, the visitors were nowhere near the level they are now, so we were able to handle the traffic using the dedicated servers at <a href='http://www.rackspace.com/'>Rackspace</a>. That worked great for a while, but there were a few limitations near the end of this time:</p>
 
 <ol>
 <li>There were a few days where changes to the site needed to be avoided. Changes could introduce some major performance issues if they happened at peak times.</li>
@@ -120,7 +120,15 @@
 <li>Protect the content management system from one of the most popular sites on the internet - at least for a few days.</li>
 </ol>
 
-<p>After some research and testing, we started using <a href='https://www.varnish-cache.org/'>Varnish</a> and we fell in love with it. Varnish is an amazing piece of technology - it helps with what we call the <a href='http://en.wikipedia.org/wiki/Thundering_herd_problem'>&#8220;thundering herd problem&#8221;</a> and it can make almost any website very fast in a short period of time.</p>
+<p>After some research and testing, we started using <a href='https://www.varnish-cache.org/'>Varnish</a> and we fell in love with it. Varnish is an amazing piece of technology - it helps with what&#8217;s called the <a href='http://en.wikipedia.org/wiki/Thundering_herd_problem'>&#8220;thundering herd problem&#8221;</a> and it can make almost any website very fast in a short period of time.</p>
+
+<p>We used this combination of Varnish and the Cachefly CDN last year (along with efficent programming techniques) - and it was a resounding success. We are able to handle a lot of website visitors with this combination - with a lot of capacity to grow if needed.</p>
+
+<p>This year, we have a number of Varnish servers in a ring around the main websites, with the content distribution taking up the front line all around the world - and we anticipate being able to handle even larger traffic volumes without any issues.</p>
+
+<p>Having websites at this large scale is lots of fun for <a href='http://nonfiction.ca/'>nonfiction</a> - it presents us with different challenges that most websites never have to face.</p>
+
+<p>What kind of challenges do your sites face? How can we help?</p>
 </div>
 <div id="disqus_thread"></div>
 <script type="text/javascript">
