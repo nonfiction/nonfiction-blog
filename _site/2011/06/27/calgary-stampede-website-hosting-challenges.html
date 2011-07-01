@@ -1,62 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-  <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:og="http://ogp.me/ns#"
-      xmlns:fb="https://www.facebook.com/2008/fbml">
-	<head>
-	  <base href="http://nonfiction.ca/" />
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-						<title>nonfiction studios - Blog  - Hosting websites for the Calgary Stampede</title>
-    <meta property="og:title" content="Hosting websites for the Calgary Stampede"/>
-    <meta property="og:type" content="blog"/>
-    <meta property="og:url" content="http://nonfiction.ca/blog/2011/06/27/calgary-stampede-website-hosting-challenges.html"/>
-    <meta property="og:image" content="http://nonfiction.ca/blog/images/nonfiction-icon.jpg"/>
-    <meta property="og:site_name" content="nonfiction studios inc. blog"/>
-		<script src="http://ajax.googleapis.com/ajax/libs/prototype/1.6.1.0/prototype.js" type="text/javascript" charset="utf-8"></script>
-		<script src="/javascripts/s2.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="/javascripts/application.js" type="text/javascript"></script>
-	  <link href="/stylesheets/blueprint.css" rel="stylesheet" type="text/css" media="screen" />
-		<link href="/stylesheets/default.css" rel="stylesheet" type="text/css" media="screen" />
-		<link rel="alternate" type="application/rss+xml" href="/blog/rss.xml"/>
-		<link rel="alternate" type="application/atom+xml" href="/blog/atom.xml"/>
-		
-		<!--[if gte IE 8]>       
-		<link href="/stylesheets/ie8.css" rel="stylesheet" type="text/css" media="screen" />
-		<![endif]-->
-
-		<!--[if lte IE 7]> 
-		  		<link href="/stylesheets/ie.css" rel="stylesheet" type="text/css" media="screen" />
-		 <![endif]-->
-		<meta http-equiv="X-UA-Compatible" content="chrome=1">
-		
-	</head>
-	<body id="page-blog">
-	
-  	
-	<div id="site" class="span-16">
-		
-		<div id="masthead" class="span-16">
-		  <a href="/" id="logo"><img src="/images/layout/logo.jpg" /></a>
-		  
-	  <?php require_once 'http://nonfiction.ca/api/external-nav.html' ?>
-		</div>
-		
-		<h1>Hosting websites for the Calgary Stampede</h1>
-		
-				
-		<div id="content">
-			<div id="main" class="span-16">
-				<div id="smbuttons">
-  <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="nonfictionyyc" data-related="darron:alkema">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script> 
-  <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=232187573461711&amp;xfbml=1"></script><fb:like href="http://nonfiction.ca/blog/2011/06/27/calgary-stampede-website-hosting-challenges.html" send="true" width="450" show_faces="false" colorscheme="dark" font=""></fb:like>
-</div>
-<div id="author">By <a href="http://twitter.com/darron" target="_blank">Darron Froese</a> on 27 June 2011</div>
-<div id="post">
-<p>For the last 9 years, nonfiction has hosted almost <a href='http://calgarystampede.com'>all</a> <a href='http://cs.calgarystampede.com'>of</a> <a href='http://corporate.calgarystampede.com'>the</a> <a href='http://venues.calgarystampede.com'>websites</a> for the Calgary Stampede. We&#8217;ve designed a lot of them and are proud to use our content management system so they&#8217;re mostly self-sufficient with updates and modifications.</p>
+<p>For the last 9 years, nonfiction has hosted almost <a href='http://calgarystampede.com'>all</a> <a href='http://cs.calgarystampede.com'>of</a> <a href='http://corporate.calgarystampede.com'>the</a> <a href='http://venues.calgarystampede.com'>websites</a> for the Calgary Stampede.</p>
 
 <p>One thing that&#8217;s different about their website usage is this - their premier event is a 10 day rodeo that happens every July - and their website traffic mirrors this.</p>
 
-<p><img alt='Visits to the site over the year' src='/blog-beta/images/2011/06/27/visits.gif' /></p>
+<p><img alt='Visits to the site over the year' src='/blog/images/2011/06/27/visits.gif' /></p>
 
 <p>This has given us a great opportunity to experiment with how to handle the incredible load changes - from 1,000 visitors per day to <em>60,000</em> visitors per day. At the peak, those visitors will look at approximately <em>350,000 pages</em> each day which translates to more than <em>10 million hits</em> each day.</p>
 
@@ -106,7 +52,7 @@
 
 <p>We finally settled on <a href='http://www.cachefly.com/'>Cachefly</a> to help us serve the Calgary Stampede&#8217;s sites. They have servers all around the world - and they serve all of the &#8220;dumb&#8221; content for the site - quickly and easily.</p>
 
-<p><img alt='View of Cacheflys network.' src='/blog-beta/images/2011/06/27/cachefly.gif' /></p>
+<p><img alt='View of Cacheflys network.' src='/blog/images/2011/06/27/cachefly.gif' /></p>
 
 <p>That helped a ton with making the site responsive, but there was still one major issue - we needed to speed up the HTML for the site - #2 in the list above.</p>
 
@@ -126,61 +72,6 @@
 
 <p>This year, we have a number of Varnish servers in a ring around the main websites, with the content distribution taking up the front line all around the world - and we anticipate being able to handle even larger traffic volumes without any issues.</p>
 
-<p>Having websites at this large scale is lots of fun for <a href='http://nonfiction.ca/'>nonfiction</a> - it presents us with different challenges that most websites never have to face.</p>
+<p>Delivering web operations at this large scale for our clients is lots of fun for <a href='http://nonfiction.ca/'>nonfiction</a> - it continually presents us with unique challenges. In order to provide high quality service, our team keeps our <a href='http://www.rackspace.com/cloud/cloud_hosting_products/servers/'>hosting technology</a> <a href='http://gigaom.com/cloud/opscode-gets-chef-cooking-for-the-enterprise/'>automated</a>, up-to-date and lean. We leverage powerful open source technologies first, whenever we can. We are not opposed to using paid software and for services either (such as Cachefly) yet we remain neutral to any software vendor. We’ve been doing this way for over 10 years and it works.</p>
 
-<p>What kind of challenges do your sites face? How can we help?</p>
-</div>
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'nonfictionblog'; // required: replace example with your forum shortname
-
-    // The following are highly recommended additional parameters. Remove the slashes in front to use.
-    // var disqus_identifier = 'unique_dynamic_id_1234';
-    var disqus_url = 'http://nonfiction.ca/blog/2011/06/27/calgary-stampede-website-hosting-challenges.html';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-				
-			</div>
-
-		</div>
-		
-		<div id="footer" class="">
-  
-  <div id="footer_nav"> 
-    <a href="/sitemap.html">SITEMAP</a> / <a href="/contact.html">CONTACT NONFICTION</a>
-  </div>
-
-  <div id="credits">  
-    &copy; 2011 nonfiction studios<br /><br />
-  </div>
-  
-</div>		
-	</div>
-	
-
-
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-10462967-29']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
-</body>
-</html>
+<p>We are seeing the overall trend of hosting towards this way of doing things. What kind of challenges do your sites face? Is your site fast, and its hosting automated, and up-to-date? We may be able to <a href='http://nonfiction.ca/contact.html'>help you</a>.</p>

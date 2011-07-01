@@ -1,16 +1,8 @@
----
-layout: post
-title: Hosting websites for the Calgary Stampede
-author: Darron Froese
-author-image: darron.jpg
-author-link: http://twitter.com/darron
----
-
-For the last 9 years, nonfiction has hosted almost [all](http://calgarystampede.com) [of](http://cs.calgarystampede.com) [the](http://corporate.calgarystampede.com) [websites](http://venues.calgarystampede.com) for the Calgary Stampede. We've designed a lot of them and are proud to use our content management system so they're mostly self-sufficient with updates and modifications.
+For the last 9 years, nonfiction has hosted almost [all](http://calgarystampede.com) [of](http://cs.calgarystampede.com) [the](http://corporate.calgarystampede.com) [websites](http://venues.calgarystampede.com) for the Calgary Stampede. 
 
 One thing that's different about their website usage is this - their premier event is a 10 day rodeo that happens every July - and their website traffic mirrors this.
 
-![Visits to the site over the year](/blog-beta/images/2011/06/27/visits.gif "Visits to the site over the year.")
+![Visits to the site over the year](/blog/images/2011/06/27/visits.gif "Visits to the site over the year.")
 
 This has given us a great opportunity to experiment with how to handle the incredible load changes - from 1,000 visitors per day to *60,000* visitors per day. At the peak, those visitors will look at approximately *350,000 pages* each day which translates to more than *10 million hits* each day.
 
@@ -44,7 +36,7 @@ It's during step #3 that the CDN can help tremendously - they place copies of yo
 
 We finally settled on [Cachefly](http://www.cachefly.com/) to help us serve the Calgary Stampede's sites. They have servers all around the world - and they serve all of the "dumb" content for the site - quickly and easily.
 
-![View of Cachefly's network.](/blog-beta/images/2011/06/27/cachefly.gif "View of Cachefly's network.")
+![View of Cachefly's network.](/blog/images/2011/06/27/cachefly.gif "View of Cachefly's network.")
 
 That helped a ton with making the site responsive, but there was still one major issue - we needed to speed up the HTML for the site - #2 in the list above.
 
@@ -60,6 +52,6 @@ We used this combination of Varnish and the Cachefly CDN last year (along with e
 
 This year, we have a number of Varnish servers in a ring around the main websites, with the content distribution taking up the front line all around the world - and we anticipate being able to handle even larger traffic volumes without any issues.
 
-Having websites at this large scale is lots of fun for [nonfiction](http://nonfiction.ca/) - it presents us with different challenges that most websites never have to face.
+Delivering web operations at this large scale for our clients is lots of fun for [nonfiction](http://nonfiction.ca/) - it continually presents us with unique challenges. In order to provide high quality service, our team keeps our [hosting technology](http://www.rackspace.com/cloud/cloud_hosting_products/servers/) [automated](http://gigaom.com/cloud/opscode-gets-chef-cooking-for-the-enterprise/), up-to-date and lean. We leverage powerful open source technologies first, whenever we can. We are not opposed to using paid software and for services either (such as Cachefly) yet we remain neutral to any software vendor. We’ve been doing this way for over 10 years and it works. 
 
-What kind of challenges do your sites face? How can we help?
+We are seeing the overall trend of hosting towards this way of doing things. What kind of challenges do your sites face? Is your site fast, and its hosting automated, and up-to-date? We may be able to [help you](http://nonfiction.ca/contact.html).
