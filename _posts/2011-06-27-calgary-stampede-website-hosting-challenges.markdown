@@ -1,3 +1,11 @@
+---
+layout: post
+title: Calgary Stampede website hosting challenges
+author: Darron Froese
+author-image: darron.jpg
+author-link: http://twitter.com/darron
+---
+
 For the last 9 years, nonfiction has hosted almost [all](http://calgarystampede.com) [of](http://cs.calgarystampede.com) [the](http://corporate.calgarystampede.com) [websites](http://venues.calgarystampede.com) for the Calgary Stampede. 
 
 One thing that's different about their website usage is this - their premier event is a 10 day rodeo that happens every July - and their website traffic mirrors this.
