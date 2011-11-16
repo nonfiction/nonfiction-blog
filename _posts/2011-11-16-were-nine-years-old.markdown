@@ -20,7 +20,7 @@ We kept those promises and still have most of those customers from nine years ag
 
 Thanks to our customers for nine great years.
 
-Thanks to our great staff who have believed in us through thick and thin.
+Thanks to our great staff who have believed in us through thick and thin and worked incredibly hard on the work we've been entrusted with.
 
 It hasn't been easy, but it's been rewarding, challenging, frustrating and life-changing - we're looking forward to what the next nine years bring!
 
