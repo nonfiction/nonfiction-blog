@@ -6,8 +6,6 @@ author-image: darron.jpg
 author-link: http://twitter.com/darron
 ---
 
-We're Nine!
-
 Nine years ago today we started nonfiction studios inc. out of the ashes of an insolvent previous employer.
 
 Myself, Robb and the team took this day to get the (new) office ready, cutting apart doors to make desks, hooking up computers and servers, and getting ready for the next workday - Monday.
