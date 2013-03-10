@@ -4,43 +4,50 @@
   
 <url>
   <loc>http://nonfiction.ca/blog</loc>
-    <lastmod>2013-02-14T18:05:29-07:00</lastmod>
+    <lastmod>2013-03-09T21:12:35-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   
   
   <url>
+    <loc>http://nonfiction.ca/blog/2013/03/09/how-we-keep-your-sites-up.html</loc>
+    <lastmod>2013-03-09 21:12:35 -0700</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://nonfiction.ca/blog/2013/02/14/our-contract-with-you.html</loc>
-    <lastmod>2013-02-14 18:05:29 -0700</lastmod>
+    <lastmod>2013-03-09 21:12:35 -0700</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://nonfiction.ca/blog/2011/11/16/were-nine-years-old.html</loc>
-    <lastmod>2013-02-14 18:05:29 -0700</lastmod>
+    <lastmod>2013-03-09 21:12:35 -0700</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://nonfiction.ca/blog/2011/07/19/creative-director-art-show.html</loc>
-    <lastmod>2013-02-14 18:05:29 -0700</lastmod>
+    <lastmod>2013-03-09 21:12:35 -0700</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://nonfiction.ca/blog/2011/06/27/calgary-stampede-website-hosting-challenges.html</loc>
-    <lastmod>2013-02-14 18:05:29 -0700</lastmod>
+    <lastmod>2013-03-09 21:12:35 -0700</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://nonfiction.ca/blog/2011/06/20/working-to-earn-your-trust-post.html</loc>
-    <lastmod>2013-02-14 18:05:29 -0700</lastmod>
+    <lastmod>2013-03-09 21:12:35 -0700</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

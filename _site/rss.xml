@@ -5,10 +5,20 @@
     <link>http://nonfiction.ca/blog</link>
     <language>en</language>
     <webMaster>darron@nonfiction.ca (Darron Froese)</webMaster>
-    <pubDate>2013-02-14T18:05:29-07:00</pubDate>
+    <pubDate>2013-03-09T21:12:35-07:00</pubDate>
     <copyright>Copyright 2011</copyright>
     <ttl>60</ttl>
     <description>a blog by nonfiction studios inc.</description>
+    
+    <item>
+      <title>How we keep your sites up.</title>
+      <link>http://nonfiction.ca/blog/2013/03/09/how-we-keep-your-sites-up.html</link>
+      <pubDate>2013-03-09 00:00:00 -0700</pubDate>
+      <guid>http://nonfiction.ca/blog/2013/03/09/how-we-keep-your-sites-up/</guid>
+      <description>&lt;p&gt;At nonfiction, we work hard to keep your sites up and fast. Take a look at our &lt;a href='http://status.nonfiction.ca'&gt;status page&lt;/a&gt; - we&amp;#8217;re doing a pretty good job overall.&lt;/p&gt;
+
+&lt;p&gt;To do this we need a good team, smart development practices, stable tools and good partners. If you&amp;#8217;re interested in some of the tools we&amp;#8217;re using to keep your sites running - take a look at a &lt;a href='http://blog.froese.org/2013/03/09/monitoring-logs-metrics-tools/'&gt;recent post on my personal blog&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Our contract with you.</title>
