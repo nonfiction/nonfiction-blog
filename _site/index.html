@@ -114,6 +114,20 @@
 		<div id="content">
 			<div id="main" class="span-16">
 				
+<h2><a href="http://nonfiction.ca/blog/2013/06/22/were-available-to-help.html">We're available to help.</a></h2>
+
+  <p>Due to the recent flooding, nonfiction studios&#8217; office is without power and inaccessible.</p>
+
+<p>This does <em>NOT</em> affect your project files - we have a current offsite copy.</p>
+
+<p>This does <em>NOT</em> affect your website in any way - all of our websites are hosted remotely.</p>
+
+<p>Please bear with us as we re-establish and distribute working files to our team - but we&#8217;re available to help.</p>
+
+<p>Our email is working just fine - that may be the best way to get ahold of us - <a href='http://www.nonfiction.ca/studio/who-we-are.html'>our contact information is available here</a>.</p>
+
+<em>Posted on 22 June 2013.</em>
+
 <h2><a href="http://nonfiction.ca/blog/2013/03/09/how-we-keep-your-sites-up.html">How we keep your sites up.</a></h2>
 
   <p>At nonfiction, we work hard to keep your sites up and fast. Take a look at our <a href='http://status.nonfiction.ca'>status page</a> - we&#8217;re doing a pretty good job overall.</p>
@@ -217,88 +231,6 @@
 <p><a href='http://burnttoaststudio.com/'>Burnt Toast Studio</a>, founded in 2000, is a nonprofit independent artist collective in the Highland Park district of North Calgary. The six original members first met in 1993 while studying printmaking at the Alberta College of Art + Design. Burnt Toast Studio strives towards the continuation of an atmosphere in which the members can be part of something larger than themselves.</p>
 
 <em>Posted on 19 July 2011.</em>
-
-<h2><a href="http://nonfiction.ca/blog/2011/06/27/calgary-stampede-website-hosting-challenges.html">Calgary Stampede website hosting challenges</a></h2>
-
-  <p>For the last 9 years, nonfiction has hosted almost <a href='http://calgarystampede.com'>all</a> <a href='http://cs.calgarystampede.com'>of</a> <a href='http://corporate.calgarystampede.com'>the</a> <a href='http://venues.calgarystampede.com'>websites</a> for the Calgary Stampede.</p>
-
-<p>One thing that&#8217;s different about their website usage is this - their premier event is a 10 day rodeo that happens every July - and their website traffic mirrors this.</p>
-
-<p><img alt='Visits to the site over the year' src='/blog/images/2011/06/27/visits.gif' /></p>
-
-<p>This has given us a great opportunity to experiment with how to handle the incredible load changes - from 1,000 visitors per day to <em>60,000</em> visitors per day. At the peak, those visitors will look at approximately <em>350,000 pages</em> each day which translates to more than <em>10 million hits</em> each day.</p>
-
-<p>For the first few years, the visitors were nowhere near the level they are now, so we were able to handle the traffic using the dedicated servers at <a href='http://www.rackspace.com/'>Rackspace</a>. That worked great for a while, but there were a few limitations near the end of this time:</p>
-
-<ol>
-<li>There were a few days where changes to the site needed to be avoided. Changes could introduce some major performance issues if they happened at peak times.</li>
-
-<li>Big crushes of traffic had the potential to do just that - crush the server.</li>
-
-<li>There wasn&#8217;t a lot of room for error and we didn&#8217;t like that.</li>
-</ol>
-
-<p>So we started looking at options to:</p>
-
-<ol>
-<li>Make sure our other clients weren&#8217;t affected.</li>
-
-<li>Keep the sites responsive so the Calgary Stampede visitors weren&#8217;t impacted negatively.</li>
-
-<li>Allow us to keep the flexibility we enjoyed with respect to making changes during the event.</li>
-</ol>
-
-<p>Some of the first items we had done and continued looking at were:</p>
-
-<ol>
-<li>Making sure the content management system was as efficient as possible. That involved tuning the database, the commands used to build pages, etc., etc.</li>
-
-<li>Making sure the images on the website are compressed down to the proper sizes.</li>
-
-<li>Making sure we were as efficient as possible when programming the site using HTML and CSS.</li>
-</ol>
-
-<p>But that still wasn&#8217;t enough - so we started looking at <a href='http://en.wikipedia.org/wiki/Content_delivery_network'>&#8220;content distribution networks&#8221;</a> or CDN&#8217;s. You can think of a CDN as a bunch of computers placed all around the world - they are closer to a website&#8217;s visitors so they&#8217;re able to deliver certain parts of the website very quickly.</p>
-
-<p>It works like this when you visit a website:</p>
-
-<ol>
-<li>You type in &#8220;www.google.com&#8221; to your web browser.</li>
-
-<li>You computer requests that page from the web server - and the web server delivers it.</li>
-
-<li>Then all of the images and related linked items are downloaded - 2 at a time.</li>
-</ol>
-
-<p>It&#8217;s during step #3 that the CDN can help tremendously - they place copies of your website content around the world, and your information doesn&#8217;t have to travel as far.</p>
-
-<p>We finally settled on <a href='http://www.cachefly.com/'>Cachefly</a> to help us serve the Calgary Stampede&#8217;s sites. They have servers all around the world - and they serve all of the &#8220;dumb&#8221; content for the site - quickly and easily.</p>
-
-<p><img alt='View of Cacheflys network.' src='/blog/images/2011/06/27/cachefly.gif' /></p>
-
-<p>That helped a ton with making the site responsive, but there was still one major issue - we needed to speed up the HTML for the site - #2 in the list above.</p>
-
-<p>During certain days of the event, there are so many people requesting pages, that the site is heavily loaded and could be slow. We needed a &#8220;content accelerator&#8221; to help to:</p>
-
-<ol>
-<li>Serve web pages very quickly.</li>
-
-<li>Refresh those pages as they change.</li>
-
-<li>Protect the content management system from one of the most popular sites on the internet - at least for a few days.</li>
-</ol>
-
-<p>After some research and testing, we started using <a href='https://www.varnish-cache.org/'>Varnish</a> and we fell in love with it. Varnish is an amazing piece of technology - it helps with what&#8217;s called the <a href='http://en.wikipedia.org/wiki/Thundering_herd_problem'>&#8220;thundering herd problem&#8221;</a> and it can make almost any website very fast in a short period of time.</p>
-
-<p>We used this combination of Varnish and the Cachefly CDN last year (along with efficent programming techniques) - and it was a resounding success. We are able to handle a lot of website visitors with this combination - with a lot of capacity to grow if needed.</p>
-
-<p>This year, we have a number of Varnish servers in a ring around the main websites, with the content distribution taking up the front line all around the world - and we anticipate being able to handle even larger traffic volumes without any issues.</p>
-
-<p>Delivering web operations at this large scale for our clients is lots of fun for <a href='http://nonfiction.ca/'>nonfiction</a> - it continually presents us with unique challenges. In order to provide high quality service, our team keeps our <a href='http://www.rackspace.com/cloud/cloud_hosting_products/servers/'>hosting technology</a> <a href='http://gigaom.com/cloud/opscode-gets-chef-cooking-for-the-enterprise/'>automated</a>, up-to-date and lean. We leverage powerful open source technologies first, whenever we can. We are not opposed to using paid software and for services either (such as Cachefly) yet we remain neutral to any software vendor. We’ve been doing this way for over 10 years and it works.</p>
-
-<p>We are seeing the overall trend of hosting towards this way of doing things. What kind of challenges do your sites face? Is your site fast, and its hosting automated, and up-to-date? We may be able to <a href='http://nonfiction.ca/contact.html'>help you</a>.</p>
-
-<em>Posted on 27 June 2011.</em>
 
 
 <div id="archives"><a href="/blog/archives.html">Archives</a></div>

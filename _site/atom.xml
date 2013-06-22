@@ -4,13 +4,33 @@
   <title>nonfiction.ca blog</title>
   <link href="http://nonfiction.ca/blog"/>
   <link type="application/atom+xml" rel="self" href="http://nonfiction.ca/blog/atom.xml"/>
-  <updated>2013-03-09T21:23:03-07:00</updated>
+  <updated>2013-06-22T14:28:47-06:00</updated>
   <id>http://nonfiction.ca/blog/</id>
   <author>
     <name>nonfiction studios inc.</name>
     <email>darron@nonfiction.ca</email>
   </author>
 
+  
+  <entry>
+    <id>http://nonfiction.ca/blog/2013/06/22/were-available-to-help.html</id>
+    <link type="text/html" rel="alternate" href="http://nonfiction.ca/blog/2013/06/22/were-available-to-help.html"/>
+    <title>We're available to help.</title>
+    <updated>2013-06-22T00:00:00-06:00</updated>
+    <author>
+      <name>Darron Froese</name>
+      <uri>http://twitter.com/darron</uri>
+    </author>
+    <content type="html">&lt;p&gt;Due to the recent flooding, nonfiction studios&amp;#8217; office is without power and inaccessible.&lt;/p&gt;
+
+&lt;p&gt;This does &lt;em&gt;NOT&lt;/em&gt; affect your project files - we have a current offsite copy.&lt;/p&gt;
+
+&lt;p&gt;This does &lt;em&gt;NOT&lt;/em&gt; affect your website in any way - all of our websites are hosted remotely.&lt;/p&gt;
+
+&lt;p&gt;Please bear with us as we re-establish and distribute working files to our team - but we&amp;#8217;re available to help.&lt;/p&gt;
+
+&lt;p&gt;Our email is working just fine - that may be the best way to get ahold of us - &lt;a href='http://www.nonfiction.ca/studio/who-we-are.html'&gt;our contact information is available here&lt;/a&gt;.&lt;/p&gt;</content>
+  </entry>
   
   <entry>
     <id>http://nonfiction.ca/blog/2013/03/09/how-we-keep-your-sites-up.html</id>
