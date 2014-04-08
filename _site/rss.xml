@@ -5,25 +5,45 @@
     <link>http://nonfiction.ca/blog</link>
     <language>en</language>
     <webMaster>darron@nonfiction.ca (Darron Froese)</webMaster>
-    <pubDate>2013-06-22T14:28:47-06:00</pubDate>
+    <pubDate>2014-04-08T10:09:46-06:00</pubDate>
     <copyright>Copyright 2011</copyright>
     <ttl>60</ttl>
     <description>a blog by nonfiction studios inc.</description>
+    
+    <item>
+      <title>nonfiction is not vulnerable to Heartbleed.</title>
+      <link>http://nonfiction.ca/blog/2014/03/08/not-vulnerable-to-heartbleed.html</link>
+      <pubDate>2014-03-08 00:00:00 -0700</pubDate>
+      <guid>http://nonfiction.ca/blog/2014/03/08/not-vulnerable-to-heartbleed/</guid>
+      <description>&lt;p&gt;Yesterday a significant security bug that affects the vast majority of internet infrastructure was widely publicized.&lt;/p&gt;
+
+&lt;p&gt;It’s called the &lt;a href=&quot;http://heartbleed.com/&quot;&gt;Heartbleed&lt;/a&gt; Bug and it’s a significant problem for many providers.&lt;/p&gt;
+
+&lt;p&gt;nonfiction’s production servers are not vulnerable to the &lt;a href=&quot;http://heartbleed.com/&quot;&gt;Heartbleed&lt;/a&gt; Bug in any way.&lt;/p&gt;
+
+&lt;p&gt;We had an open source project that was potentially vulnerable, but it was configured in such a way as to have no impact. We also have an unreleased SaaS project that was vulnerable, but it used no shared resources and has been fully patched and upgraded.&lt;/p&gt;
+
+&lt;p&gt;We are getting updated SSL keys for those items, but their potential vulnerabilities have no impact on the rest of nonfiction’s production and client servers.&lt;/p&gt;
+
+&lt;p&gt;We are monitoring the situation and making sure that our suppliers and providers are fully patched and any additional systems we’re using are not affected.&lt;/p&gt;
+
+&lt;p&gt;Please let &lt;a href=&quot;mailto:darron@nonfiction.ca&quot;&gt;us&lt;/a&gt; know if you’ve got any questions or concerns.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>We're available to help.</title>
       <link>http://nonfiction.ca/blog/2013/06/22/were-available-to-help.html</link>
       <pubDate>2013-06-22 00:00:00 -0600</pubDate>
       <guid>http://nonfiction.ca/blog/2013/06/22/were-available-to-help/</guid>
-      <description>&lt;p&gt;Due to the recent flooding, nonfiction studios&amp;#8217; office is without power and inaccessible.&lt;/p&gt;
+      <description>&lt;p&gt;Due to the recent flooding, nonfiction studios’ office is without power and inaccessible.&lt;/p&gt;
 
 &lt;p&gt;This does &lt;em&gt;NOT&lt;/em&gt; affect your project files - we have a current offsite copy.&lt;/p&gt;
 
 &lt;p&gt;This does &lt;em&gt;NOT&lt;/em&gt; affect your website in any way - all of our websites are hosted remotely.&lt;/p&gt;
 
-&lt;p&gt;Please bear with us as we re-establish and distribute working files to our team - but we&amp;#8217;re available to help.&lt;/p&gt;
+&lt;p&gt;Please bear with us as we re-establish and distribute working files to our team - but we’re available to help.&lt;/p&gt;
 
-&lt;p&gt;Our email is working just fine - that may be the best way to get ahold of us - &lt;a href='http://www.nonfiction.ca/studio/who-we-are.html'&gt;our contact information is available here&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;Our email is working just fine - that may be the best way to get ahold of us - &lt;a href=&quot;http://www.nonfiction.ca/studio/who-we-are.html&quot;&gt;our contact information is available here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -31,9 +51,9 @@
       <link>http://nonfiction.ca/blog/2013/03/09/how-we-keep-your-sites-up.html</link>
       <pubDate>2013-03-09 00:00:00 -0700</pubDate>
       <guid>http://nonfiction.ca/blog/2013/03/09/how-we-keep-your-sites-up/</guid>
-      <description>&lt;p&gt;At nonfiction, we work hard to keep your sites up and fast. Take a look at our &lt;a href='http://status.nonfiction.ca'&gt;status page&lt;/a&gt; - we&amp;#8217;re doing a pretty good job overall.&lt;/p&gt;
+      <description>&lt;p&gt;At nonfiction, we work hard to keep your sites up and fast. Take a look at our &lt;a href=&quot;http://status.nonfiction.ca&quot;&gt;status page&lt;/a&gt; - we’re doing a pretty good job overall.&lt;/p&gt;
 
-&lt;p&gt;To do this we need a good team, smart development practices, stable tools and good partners. If you&amp;#8217;re interested in some of the tools we&amp;#8217;re using to keep your sites running - take a look at a &lt;a href='http://blog.froese.org/2013/03/09/monitoring-logs-metrics-tools/'&gt;recent post on my personal blog&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;To do this we need a good team, smart development practices, stable tools and good partners. If you’re interested in some of the tools we’re using to keep your sites running - take a look at a &lt;a href=&quot;http://blog.froese.org/2013/03/09/monitoring-logs-metrics-tools/&quot;&gt;recent post on my personal blog&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -41,13 +61,13 @@
       <link>http://nonfiction.ca/blog/2013/02/14/our-contract-with-you.html</link>
       <pubDate>2013-02-14 00:00:00 -0700</pubDate>
       <guid>http://nonfiction.ca/blog/2013/02/14/our-contract-with-you/</guid>
-      <description>&lt;p&gt;Over the last few years, we&amp;#8217;ve noticed that a lot of our interactions have been with larger companies. Due to their size, often these arrangements are smothered with large amounts of legalese.&lt;/p&gt;
+      <description>&lt;p&gt;Over the last few years, we’ve noticed that a lot of our interactions have been with larger companies. Due to their size, often these arrangements are smothered with large amounts of legalese.&lt;/p&gt;
 
 &lt;p&gt;We totally agree that clear agreements are paramount to a good working relationship - but often the legal documents we end up with, do nothing to &lt;em&gt;clear&lt;/em&gt; anything up - it ends up more like &lt;em&gt;clear as mud&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;For one of our long term clients, we recently created a &lt;em&gt;client relationship contract&lt;/em&gt; - and we felt that we should post that here, to show what &lt;em&gt;all&lt;/em&gt; of our clients should expect. No matter who you are, this is our contract with you:&lt;/p&gt;
 
-&lt;h2 id='when_we_work_together_on_a_visual_design_project'&gt;When we work together on a visual design project&lt;/h2&gt;
+&lt;h2 id=&quot;when_we_work_together_on_a_visual_design_project&quot;&gt;When we work together on a visual design project&lt;/h2&gt;
 
 &lt;p&gt;Upon final and complete payment of the approved quote, you have a worldwide, royalty free, license to do whatever you want with whatever we’ve done for you. You can re-use, tweak, change, slash, burn, do anything you want - it’s yours.&lt;/p&gt;
 
@@ -57,7 +77,7 @@
 
 &lt;p&gt;We reserve the right to show what we’ve done for you in our portfolio of work done.&lt;/p&gt;
 
-&lt;h2 id='when_we_work_together_on_a_web_site_application_or_intranet_project'&gt;When we work together on a web site, application or intranet project.&lt;/h2&gt;
+&lt;h2 id=&quot;when_we_work_together_on_a_web_site_application_or_intranet_project&quot;&gt;When we work together on a web site, application or intranet project.&lt;/h2&gt;
 
 &lt;p&gt;Upon final and complete payment of the approved quote, you have a worldwide, royalty free, license to do whatever you want with whatever we’ve done for you. You can re-use, tweak, change, slash, burn, do anything you want - it’s yours.&lt;/p&gt;
 
@@ -71,7 +91,7 @@
 
 &lt;p&gt;We reserve the right to show what we’ve done for you in our portfolio of work done.&lt;/p&gt;
 
-&lt;h2 id='when_we_host_your_web_site_or_application'&gt;When we host your web site or application.&lt;/h2&gt;
+&lt;h2 id=&quot;when_we_host_your_web_site_or_application&quot;&gt;When we host your web site or application.&lt;/h2&gt;
 
 &lt;p&gt;Your data is your data - no matter how it is - we merely host it on our server infrastructure for you.&lt;/p&gt;
 
@@ -79,13 +99,13 @@
 
 &lt;p&gt;We make best efforts to keep your sites up and running 100% of the time - the status is always available to view at:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href='http://status.nonfiction.ca/'&gt;http://status.nonfiction.ca/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://status.nonfiction.ca/&quot;&gt;http://status.nonfiction.ca/&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;When we fall short of that goal, we do our best to explain what happened, why it happened and how we&amp;#8217;re working to make sure it never happens again.&lt;/p&gt;
+&lt;p&gt;When we fall short of that goal, we do our best to explain what happened, why it happened and how we’re working to make sure it never happens again.&lt;/p&gt;
 
 &lt;p&gt;Hopefully this helps to show what you &lt;em&gt;should&lt;/em&gt; be getting - any thoughts or comments?&lt;/p&gt;
 
-&lt;p&gt;As always, if we&amp;#8217;re falling short - please let us know!&lt;/p&gt;</description>
+&lt;p&gt;As always, if we’re falling short - please let us know!&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -111,9 +131,9 @@
 
 &lt;p&gt;Thanks to our customers for nine great years.&lt;/p&gt;
 
-&lt;p&gt;Thanks to our great staff who have believed in us through thick and thin and worked incredibly hard on the work we&amp;#8217;ve been entrusted with.&lt;/p&gt;
+&lt;p&gt;Thanks to our great staff who have believed in us through thick and thin and worked incredibly hard on the work we’ve been entrusted with.&lt;/p&gt;
 
-&lt;p&gt;It hasn&amp;#8217;t been easy, but it&amp;#8217;s been rewarding, challenging, frustrating and life-changing - we&amp;#8217;re looking forward to what the next nine years bring!&lt;/p&gt;
+&lt;p&gt;It hasn’t been easy, but it’s been rewarding, challenging, frustrating and life-changing - we’re looking forward to what the next nine years bring!&lt;/p&gt;
 
 &lt;p&gt;Robb and Darron&lt;/p&gt;</description>
     </item>
@@ -123,19 +143,19 @@
       <link>http://nonfiction.ca/blog/2011/07/19/creative-director-art-show.html</link>
       <pubDate>2011-07-19 00:00:00 -0600</pubDate>
       <guid>http://nonfiction.ca/blog/2011/07/19/creative-director-art-show/</guid>
-      <description>&lt;p&gt;&lt;img alt='Art.' src='/blog/images/2011/07/19/image2.jpg' /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&quot;/blog/images/2011/07/19/image2.jpg&quot; alt=&quot;Art.&quot; title=&quot;Art&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Our own creative director, Edwin, along with some of his studio mates, are having a show at the EPCOR CENTRE for the Performing Arts. The show runs from July 1st to September 25, with an opening reception on August 4th, at the Ledge Gallery (across from the Max Bell Theatre upstairs).&lt;/p&gt;
 
-&lt;p&gt;Take the short stroll through the building in the direction of 9th Ave (past the Baraka Cafe). You will be able to see some specially created artworks for the display windows, as well as some unique Amigurumi (knitted stuff toys). Go find out what an amigurumi is, and amaze your friends with your knowledge of japanese pop culture at the next dinner party!&amp;#8230;&lt;/p&gt;
+&lt;p&gt;Take the short stroll through the building in the direction of 9th Ave (past the Baraka Cafe). You will be able to see some specially created artworks for the display windows, as well as some unique Amigurumi (knitted stuff toys). Go find out what an amigurumi is, and amaze your friends with your knowledge of japanese pop culture at the next dinner party!&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt='Art.' src='/blog/images/2011/07/19/image1.jpg' /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/images/2011/07/19/image1.jpg&quot; alt=&quot;Art.&quot; title=&quot;Art&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Here&amp;#8217;s an excerpt from the Epcor&amp;#8217;s website:&lt;/p&gt;
+&lt;p&gt;Here’s an excerpt from the Epcor’s website:&lt;/p&gt;
 
-&lt;p&gt;EPCOR CENTRE for the Performing Arts is thrilled to present Burnt Toast Studio&amp;#8217;s Brad Snyder, Edwin Herrenschmidt, Alden Alfon, Shannon MacKinnon and James Jensen, exhibiting print, design and text, over the summer months in its Window Galleries. These five artists explore screen printing, relief printing, mixed media, papermaking, painting, sculpture and were selected for their artistic quality and appeal to all ages, promoting artistic dialogue within our city.&lt;/p&gt;
+&lt;p&gt;EPCOR CENTRE for the Performing Arts is thrilled to present Burnt Toast Studio’s Brad Snyder, Edwin Herrenschmidt, Alden Alfon, Shannon MacKinnon and James Jensen, exhibiting print, design and text, over the summer months in its Window Galleries. These five artists explore screen printing, relief printing, mixed media, papermaking, painting, sculpture and were selected for their artistic quality and appeal to all ages, promoting artistic dialogue within our city.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href='http://burnttoaststudio.com/'&gt;Burnt Toast Studio&lt;/a&gt;, founded in 2000, is a nonprofit independent artist collective in the Highland Park district of North Calgary. The six original members first met in 1993 while studying printmaking at the Alberta College of Art + Design. Burnt Toast Studio strives towards the continuation of an atmosphere in which the members can be part of something larger than themselves.&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&quot;http://burnttoaststudio.com/&quot;&gt;Burnt Toast Studio&lt;/a&gt;, founded in 2000, is a nonprofit independent artist collective in the Highland Park district of North Calgary. The six original members first met in 1993 while studying printmaking at the Alberta College of Art + Design. Burnt Toast Studio strives towards the continuation of an atmosphere in which the members can be part of something larger than themselves.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -143,30 +163,30 @@
       <link>http://nonfiction.ca/blog/2011/06/27/calgary-stampede-website-hosting-challenges.html</link>
       <pubDate>2011-06-27 00:00:00 -0600</pubDate>
       <guid>http://nonfiction.ca/blog/2011/06/27/calgary-stampede-website-hosting-challenges/</guid>
-      <description>&lt;p&gt;For the last 9 years, nonfiction has hosted almost &lt;a href='http://calgarystampede.com'&gt;all&lt;/a&gt; &lt;a href='http://cs.calgarystampede.com'&gt;of&lt;/a&gt; &lt;a href='http://corporate.calgarystampede.com'&gt;the&lt;/a&gt; &lt;a href='http://venues.calgarystampede.com'&gt;websites&lt;/a&gt; for the Calgary Stampede.&lt;/p&gt;
+      <description>&lt;p&gt;For the last 9 years, nonfiction has hosted almost &lt;a href=&quot;http://calgarystampede.com&quot;&gt;all&lt;/a&gt; &lt;a href=&quot;http://cs.calgarystampede.com&quot;&gt;of&lt;/a&gt; &lt;a href=&quot;http://corporate.calgarystampede.com&quot;&gt;the&lt;/a&gt; &lt;a href=&quot;http://venues.calgarystampede.com&quot;&gt;websites&lt;/a&gt; for the Calgary Stampede.&lt;/p&gt;
 
-&lt;p&gt;One thing that&amp;#8217;s different about their website usage is this - their premier event is a 10 day rodeo that happens every July - and their website traffic mirrors this.&lt;/p&gt;
+&lt;p&gt;One thing that’s different about their website usage is this - their premier event is a 10 day rodeo that happens every July - and their website traffic mirrors this.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt='Visits to the site over the year' src='/blog/images/2011/06/27/visits.gif' /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/images/2011/06/27/visits.gif&quot; alt=&quot;Visits to the site over the year&quot; title=&quot;Visits to the site over the year.&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This has given us a great opportunity to experiment with how to handle the incredible load changes - from 1,000 visitors per day to &lt;em&gt;60,000&lt;/em&gt; visitors per day. At the peak, those visitors will look at approximately &lt;em&gt;350,000 pages&lt;/em&gt; each day which translates to more than &lt;em&gt;10 million hits&lt;/em&gt; each day.&lt;/p&gt;
 
-&lt;p&gt;For the first few years, the visitors were nowhere near the level they are now, so we were able to handle the traffic using the dedicated servers at &lt;a href='http://www.rackspace.com/'&gt;Rackspace&lt;/a&gt;. That worked great for a while, but there were a few limitations near the end of this time:&lt;/p&gt;
+&lt;p&gt;For the first few years, the visitors were nowhere near the level they are now, so we were able to handle the traffic using the dedicated servers at &lt;a href=&quot;http://www.rackspace.com/&quot;&gt;Rackspace&lt;/a&gt;. That worked great for a while, but there were a few limitations near the end of this time:&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;There were a few days where changes to the site needed to be avoided. Changes could introduce some major performance issues if they happened at peak times.&lt;/li&gt;
 
 &lt;li&gt;Big crushes of traffic had the potential to do just that - crush the server.&lt;/li&gt;
 
-&lt;li&gt;There wasn&amp;#8217;t a lot of room for error and we didn&amp;#8217;t like that.&lt;/li&gt;
+&lt;li&gt;There wasn’t a lot of room for error and we didn’t like that.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;So we started looking at options to:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Make sure our other clients weren&amp;#8217;t affected.&lt;/li&gt;
+&lt;li&gt;Make sure our other clients weren’t affected.&lt;/li&gt;
 
-&lt;li&gt;Keep the sites responsive so the Calgary Stampede visitors weren&amp;#8217;t impacted negatively.&lt;/li&gt;
+&lt;li&gt;Keep the sites responsive so the Calgary Stampede visitors weren’t impacted negatively.&lt;/li&gt;
 
 &lt;li&gt;Allow us to keep the flexibility we enjoyed with respect to making changes during the event.&lt;/li&gt;
 &lt;/ol&gt;
@@ -181,27 +201,27 @@
 &lt;li&gt;Making sure we were as efficient as possible when programming the site using HTML and CSS.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;But that still wasn&amp;#8217;t enough - so we started looking at &lt;a href='http://en.wikipedia.org/wiki/Content_delivery_network'&gt;&amp;#8220;content distribution networks&amp;#8221;&lt;/a&gt; or CDN&amp;#8217;s. You can think of a CDN as a bunch of computers placed all around the world - they are closer to a website&amp;#8217;s visitors so they&amp;#8217;re able to deliver certain parts of the website very quickly.&lt;/p&gt;
+&lt;p&gt;But that still wasn’t enough - so we started looking at &lt;a href=&quot;http://en.wikipedia.org/wiki/Content_delivery_network&quot;&gt;“content distribution networks”&lt;/a&gt; or CDN’s. You can think of a CDN as a bunch of computers placed all around the world - they are closer to a website’s visitors so they’re able to deliver certain parts of the website very quickly.&lt;/p&gt;
 
 &lt;p&gt;It works like this when you visit a website:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;You type in &amp;#8220;www.google.com&amp;#8221; to your web browser.&lt;/li&gt;
+&lt;li&gt;You type in “www.google.com” to your web browser.&lt;/li&gt;
 
 &lt;li&gt;You computer requests that page from the web server - and the web server delivers it.&lt;/li&gt;
 
 &lt;li&gt;Then all of the images and related linked items are downloaded - 2 at a time.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;It&amp;#8217;s during step #3 that the CDN can help tremendously - they place copies of your website content around the world, and your information doesn&amp;#8217;t have to travel as far.&lt;/p&gt;
+&lt;p&gt;It’s during step #3 that the CDN can help tremendously - they place copies of your website content around the world, and your information doesn’t have to travel as far.&lt;/p&gt;
 
-&lt;p&gt;We finally settled on &lt;a href='http://www.cachefly.com/'&gt;Cachefly&lt;/a&gt; to help us serve the Calgary Stampede&amp;#8217;s sites. They have servers all around the world - and they serve all of the &amp;#8220;dumb&amp;#8221; content for the site - quickly and easily.&lt;/p&gt;
+&lt;p&gt;We finally settled on &lt;a href=&quot;http://www.cachefly.com/&quot;&gt;Cachefly&lt;/a&gt; to help us serve the Calgary Stampede’s sites. They have servers all around the world - and they serve all of the “dumb” content for the site - quickly and easily.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt='View of Cacheflys network.' src='/blog/images/2011/06/27/cachefly.gif' /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/images/2011/06/27/cachefly.gif&quot; alt=&quot;View of Cacheflys network.&quot; title=&quot;View of Cachefly&#39;s network.&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;That helped a ton with making the site responsive, but there was still one major issue - we needed to speed up the HTML for the site - #2 in the list above.&lt;/p&gt;
 
-&lt;p&gt;During certain days of the event, there are so many people requesting pages, that the site is heavily loaded and could be slow. We needed a &amp;#8220;content accelerator&amp;#8221; to help to:&lt;/p&gt;
+&lt;p&gt;During certain days of the event, there are so many people requesting pages, that the site is heavily loaded and could be slow. We needed a “content accelerator” to help to:&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Serve web pages very quickly.&lt;/li&gt;
@@ -211,15 +231,15 @@
 &lt;li&gt;Protect the content management system from one of the most popular sites on the internet - at least for a few days.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;After some research and testing, we started using &lt;a href='https://www.varnish-cache.org/'&gt;Varnish&lt;/a&gt; and we fell in love with it. Varnish is an amazing piece of technology - it helps with what&amp;#8217;s called the &lt;a href='http://en.wikipedia.org/wiki/Thundering_herd_problem'&gt;&amp;#8220;thundering herd problem&amp;#8221;&lt;/a&gt; and it can make almost any website very fast in a short period of time.&lt;/p&gt;
+&lt;p&gt;After some research and testing, we started using &lt;a href=&quot;https://www.varnish-cache.org/&quot;&gt;Varnish&lt;/a&gt; and we fell in love with it. Varnish is an amazing piece of technology - it helps with what’s called the &lt;a href=&quot;http://en.wikipedia.org/wiki/Thundering_herd_problem&quot;&gt;“thundering herd problem”&lt;/a&gt; and it can make almost any website very fast in a short period of time.&lt;/p&gt;
 
 &lt;p&gt;We used this combination of Varnish and the Cachefly CDN last year (along with efficent programming techniques) - and it was a resounding success. We are able to handle a lot of website visitors with this combination - with a lot of capacity to grow if needed.&lt;/p&gt;
 
 &lt;p&gt;This year, we have a number of Varnish servers in a ring around the main websites, with the content distribution taking up the front line all around the world - and we anticipate being able to handle even larger traffic volumes without any issues.&lt;/p&gt;
 
-&lt;p&gt;Delivering web operations at this large scale for our clients is lots of fun for &lt;a href='http://nonfiction.ca/'&gt;nonfiction&lt;/a&gt; - it continually presents us with unique challenges. In order to provide high quality service, our team keeps our &lt;a href='http://www.rackspace.com/cloud/cloud_hosting_products/servers/'&gt;hosting technology&lt;/a&gt; &lt;a href='http://gigaom.com/cloud/opscode-gets-chef-cooking-for-the-enterprise/'&gt;automated&lt;/a&gt;, up-to-date and lean. We leverage powerful open source technologies first, whenever we can. We are not opposed to using paid software and for services either (such as Cachefly) yet we remain neutral to any software vendor. We’ve been doing this way for over 10 years and it works.&lt;/p&gt;
+&lt;p&gt;Delivering web operations at this large scale for our clients is lots of fun for &lt;a href=&quot;http://nonfiction.ca/&quot;&gt;nonfiction&lt;/a&gt; - it continually presents us with unique challenges. In order to provide high quality service, our team keeps our &lt;a href=&quot;http://www.rackspace.com/cloud/cloud_hosting_products/servers/&quot;&gt;hosting technology&lt;/a&gt; &lt;a href=&quot;http://gigaom.com/cloud/opscode-gets-chef-cooking-for-the-enterprise/&quot;&gt;automated&lt;/a&gt;, up-to-date and lean. We leverage powerful open source technologies first, whenever we can. We are not opposed to using paid software and for services either (such as Cachefly) yet we remain neutral to any software vendor. We’ve been doing this way for over 10 years and it works.&lt;/p&gt;
 
-&lt;p&gt;We are seeing the overall trend of hosting towards this way of doing things. What kind of challenges do your sites face? Is your site fast, and its hosting automated, and up-to-date? We may be able to &lt;a href='http://nonfiction.ca/contact.html'&gt;help you&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;We are seeing the overall trend of hosting towards this way of doing things. What kind of challenges do your sites face? Is your site fast, and its hosting automated, and up-to-date? We may be able to &lt;a href=&quot;http://nonfiction.ca/contact.html&quot;&gt;help you&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -227,25 +247,25 @@
       <link>http://nonfiction.ca/blog/2011/06/20/working-to-earn-your-trust-post.html</link>
       <pubDate>2011-06-20 00:00:00 -0600</pubDate>
       <guid>http://nonfiction.ca/blog/2011/06/20/working-to-earn-your-trust-post/</guid>
-      <description>&lt;p&gt;Was thinking about how I interact with car mechanics lately - since I&amp;#8217;m due for another oil change. &lt;em&gt;Most&lt;/em&gt; of the time, I decline their offers for additional services reflexively. This isn&amp;#8217;t because I know that my vehicle doesn&amp;#8217;t need the service - it&amp;#8217;s just because I don&amp;#8217;t trust their motivations and have been burned in the past. Being burned in the oil change business isn&amp;#8217;t very expensive, I think the last time I got hooked, it was $129 for service I didn&amp;#8217;t really need. I now second guess everything that those people say - often just long enough to say: &lt;em&gt;No thanks.&lt;/em&gt;&lt;/p&gt;
+      <description>&lt;p&gt;Was thinking about how I interact with car mechanics lately - since I’m due for another oil change. &lt;em&gt;Most&lt;/em&gt; of the time, I decline their offers for additional services reflexively. This isn’t because I know that my vehicle doesn’t need the service - it’s just because I don’t trust their motivations and have been burned in the past. Being burned in the oil change business isn’t very expensive, I think the last time I got hooked, it was $129 for service I didn’t really need. I now second guess everything that those people say - often just long enough to say: &lt;em&gt;No thanks.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;The main reason I don&amp;#8217;t trust mechanics is that I do not understand how it all works. It is a mystery to me - so that makes me skeptical of their suggestions.&lt;/p&gt;
+&lt;p&gt;The main reason I don’t trust mechanics is that I do not understand how it all works. It is a mystery to me - so that makes me skeptical of their suggestions.&lt;/p&gt;
 
-&lt;p&gt;That triggered a more recent understanding for me: That&amp;#8217;s a lot like web design and programming for normal people - not web geeks like me. Since it&amp;#8217;s not very well understood, that can create mistrust and skepticism that we need to work to correct.&lt;/p&gt;
+&lt;p&gt;That triggered a more recent understanding for me: That’s a lot like web design and programming for normal people - not web geeks like me. Since it’s not very well understood, that can create mistrust and skepticism that we need to work to correct.&lt;/p&gt;
 
-&lt;p&gt;We&amp;#8217;ve been building websites as &lt;a href='http://nonfiction.ca'&gt;nonfiction studios inc.&lt;/a&gt; for 8 and a half years now. Many of our clients were with us when we started out of the ashes of another studio. We&amp;#8217;ve kept most of them for this entire time and they&amp;#8217;ve developed a trust in us that we&amp;#8217;ve worked hard to keep.&lt;/p&gt;
+&lt;p&gt;We’ve been building websites as &lt;a href=&quot;http://nonfiction.ca&quot;&gt;nonfiction studios inc.&lt;/a&gt; for 8 and a half years now. Many of our clients were with us when we started out of the ashes of another studio. We’ve kept most of them for this entire time and they’ve developed a trust in us that we’ve worked hard to keep.&lt;/p&gt;
 
-&lt;p&gt;When we do work with those clients - our long term partners - we are able to do &lt;em&gt;much&lt;/em&gt; better work for them. We don&amp;#8217;t have to fight about simple decisions - they trust we have their best interests in mind. And we trust that they know their business and that we don&amp;#8217;t - we rely on them for information about their company and clients.&lt;/p&gt;
+&lt;p&gt;When we do work with those clients - our long term partners - we are able to do &lt;em&gt;much&lt;/em&gt; better work for them. We don’t have to fight about simple decisions - they trust we have their best interests in mind. And we trust that they know their business and that we don’t - we rely on them for information about their company and clients.&lt;/p&gt;
 
 &lt;p&gt;nonfiction wants to get &lt;em&gt;all&lt;/em&gt; of our clients into that position - a position where they will trust us - and allow us to do our best work.&lt;/p&gt;
 
 &lt;p&gt;We have a large client that we do a ton of work for - from all sorts of departments. Some of those departments trust us - and we do our best work for them. They have a problem, we discuss the problem and then come up with solutions - they give input from their perspective as business experts - and we give input from a design and development perspective. In the end, we have a great product - delivered on time and on budget with minimal drama and maximum impact.&lt;/p&gt;
 
-&lt;p&gt;We have some other departments at that client that we don&amp;#8217;t have the same trust dynamic with. We&amp;#8217;re constantly being second guessed until the project is a barely recognizable shell of what we designed and planned for. We&amp;#8217;re constantly having to re-do and re-work something that will never actually deliver because we didn&amp;#8217;t work together as a team.&lt;/p&gt;
+&lt;p&gt;We have some other departments at that client that we don’t have the same trust dynamic with. We’re constantly being second guessed until the project is a barely recognizable shell of what we designed and planned for. We’re constantly having to re-do and re-work something that will never actually deliver because we didn’t work together as a team.&lt;/p&gt;
 
-&lt;p&gt;It all comes down to trust. We work hard to earn and develop our client&amp;#8217;s trust- so that we can do better and make you look like a hero.&lt;/p&gt;
+&lt;p&gt;It all comes down to trust. We work hard to earn and develop our client’s trust- so that we can do better and make you look like a hero.&lt;/p&gt;
 
-&lt;p&gt;We think one way to improve that trust with clients, is to remove some of the mysteries around design and development. One of the purposes for this blog is to share some of the inner workings of our Studio&amp;#8217;s process. We hope this can build even more trust with our fantastic clients. Trust is the foundation for great work.&lt;/p&gt;
+&lt;p&gt;We think one way to improve that trust with clients, is to remove some of the mysteries around design and development. One of the purposes for this blog is to share some of the inner workings of our Studio’s process. We hope this can build even more trust with our fantastic clients. Trust is the foundation for great work.&lt;/p&gt;
 
 &lt;p&gt;What are some web mysteries that we can address with you? Let us know in the comments or via email.&lt;/p&gt;</description>
     </item>
